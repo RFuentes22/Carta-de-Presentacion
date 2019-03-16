@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
 
@@ -29,59 +29,73 @@
         android:orientation="vertical">
 
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
-                android:text="Roberto Fuentes" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/Name" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_weight="4" >
+            android:layout_weight="4"
+            android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
-                android:src="@drawable/facebook"/>
+                android:paddingLeft="20dp"
+                android:src="@drawable/facebook" />
 
             <TextView
                 android:layout_width="wrap_content"
-                android:paddingRight="20dp"
-                android:paddingLeft="10dp"
                 android:layout_height="100dp"
                 android:gravity="center"
-                android:text="r.fuentes" />
+                android:paddingLeft="10dp"
+                android:paddingRight="50dp"
+                android:text="@string/name_facebook" />
 
             <ImageView
                 android:layout_width="wrap_content"
+                android:paddingLeft="40dp"
                 android:layout_height="100dp"
                 android:src="@drawable/instagram" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
-                android:paddingLeft="10dp"
                 android:gravity="center"
-                android:text="r.fuentes" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="50dp"
-                    android:layout_gravity="center_vertical"
-                    android:src="@drawable/github" />
-            </LinearLayout>
-
+                android:paddingLeft="10dp"
+                android:text="@string/name_instagram" />
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+    android:paddingLeft="130dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="bottom"
+                android:src="@drawable/github" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:paddingBottom="40dp"
+                android:text="@string/name_github" />
+        </LinearLayout>
 
     </LinearLayout>
 
 
-
 </LinearLayout>
+
+
+

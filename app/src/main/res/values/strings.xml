@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Carta de presentación</string>
+    <string name="Name">Roberto Fuentes</string>
+    <string name="name_facebook">r.fuentes</string>
+    <string name="name_instagram">r.fuentes</string>
+    <string name="name_github">r.fuentes</string>
 </resources>
